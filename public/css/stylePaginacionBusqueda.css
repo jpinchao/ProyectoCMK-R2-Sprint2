@@ -1,0 +1,64 @@
+
+/* Estilos para la paginación */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .page-info{
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  .pagination button {
+    background-color: #0c579d;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    border-radius: 50px;
+  }
+  .pagination button:hover {
+    background-color: #eeb328b9;
+  }
+  .pagination button:disabled {
+    color: #bbb;
+    cursor: not-allowed;
+  }
+  /* Estilos para la lista de productos */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  .product-list li {
+    flex: 0 0 calc(33.33% - 10%);
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px -6px black;
+  }
+  .product-list li img {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
+.nav-link{
+  margin-right: 100px;
+}
+.nav-content{
+  margin-right: 100px;
+}
+
+header{
+  background-color: cadetblue;
+}
+  

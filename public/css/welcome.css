@@ -1,0 +1,134 @@
+
+
+
+
+.nav-link{
+    margin-right: 40px;
+}
+.nav-content{
+    margin-right: 100px;
+}
+
+
+
+nav{
+    background-color:cadetblue;
+    position: fixed;
+    width: 100%;
+ 
+   
+    top: 0;
+
+}
+
+.card-container{
+    display: flex;
+}
+.container-card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+
+}
+
+.card-img-top{
+    border-radius: 10%;
+}
+.container-footer{
+    background-color:gainsboro;
+    margin-top: 50px;
+}
+
+
+.logo{
+    width: 180px;
+    height: 40px;
+}
+
+.container-card{
+    margin-top: 25px;
+}
+
+
+
+.nav-item{
+    margin-right: 100px;
+}
+
+
+.container{
+    margin-top: 50px;
+}
+
+
+/* pantallas menores a 640, celulares*/
+
+@media screen and (max-width: 640px) {
+    .card-container{
+        display: inline-block;
+    }
+    .card{
+        margin-left: 80px;
+        margin-top: 20px;
+        width: 18rem;
+    }
+
+    .nav-item{
+        margin-left: 0px;
+    }
+
+    
+}
+/* pantallas entre 640 y 1280, tablet*/
+@media screen and (min-width: 640px) and (max-width: 768px) {
+    .card-container{
+        display: inline-block;
+    }
+    .card{
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 20rem;
+    }
+    .nav-item{
+        margin-left: 0px;
+    }
+   
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .card-container{
+        display: flex;
+    }
+    .card{
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 22rem;
+    }
+    .nav-item{
+        margin-left: 15px;
+    }
+    .btn-nav-2{
+        visibility: hidden-focable;
+    }
+   
+}
+/* pantallas mayores a 1280, computador */
+@media screen and (min-width: 992px)and (max-width: 1280px) {
+    .card-container{
+        display: flex;
+    }
+    .card{
+        margin-left: 60px;
+        margin-top: 20px;
+        width: 23rem;
+        border-radius: 5%;
+
+    }
+    
+    .nav-item{
+        margin-left: 15px;
+    }
+
+}
+
+

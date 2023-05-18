@@ -1,0 +1,119 @@
+
+
+
+  #filtro{
+    margin-top: 10px;
+}
+.filtro-search{
+    width: 350px;
+}
+.input-search{
+    width: 250px;
+}
+.filtro{
+    width: auto;
+    height: auto;
+    justify-content: center;
+    
+    box-shadow: 0px 10px 10px -6px black;
+}
+
+.filtro-btn{
+    box-shadow: 0px 10px 10px -6px black;
+}
+.filtro-btn img{
+    height: 30px;
+    width: 30px;
+}
+
+/* input del filtro*/
+.obj-page input{
+    width: 100px;
+   
+}
+
+@media screen and (max-width: 600px) {
+
+    .friltro{
+        margin-left: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 400px;
+    }
+    .filtro-search{
+       
+        margin-top:  10px;
+        justify-content: center;
+        
+        background-color: aqua;
+    }
+    .filtro-btn span{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .filtro{
+        margin-left: 100px;
+       
+    }
+
+}
+@media only screen and (min-width: 992px) {
+    .filtro{
+
+        margin-left: 200px;
+        margin-right: 20px; 
+        
+    }
+}
+@media only screen and (min-width: 1092px) {
+    .filtro{
+
+        
+        margin-right: 220px; 
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...} */
+
+
+
+
+
+
+
